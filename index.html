@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Harry Potter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz - Harry Potter</h1>
+
+        <div class="question-container" id="question1">
+            <h2>1. Qual é o nome completo de Harry?</h2>
+            <div class="options">
+                <button class="option" onclick="checkAnswer(this, false)">Harry James Weasley</button>
+                <button class="option" onclick="checkAnswer(this, true)">Harry James Potter</button>
+                <button class="option" onclick="checkAnswer(this, false)">Harry Sirius Black</button>
+            </div>
+        </div>
+
+        <div class="question-container" id="question2">
+            <h2>2. Qual o nome da casa onde Harry foi selecionado?</h2>
+            <div class="options">
+                <button class="option" onclick="checkAnswer(this, false)">Sonserina</button>
+                <button class="option" onclick="checkAnswer(this, true)">Grifinória</button>
+                <button class="option" onclick="checkAnswer(this, false)">Corvinal</button>
+            </div>
+        </div>
+
+        <div class="question-container" id="question3">
+            <h2>3. Qual é o patrono de Harry?</h2>
+            <div class="options">
+                <button class="option" onclick="checkAnswer(this, true)">Um cervo</button>
+                <button class="option" onclick="checkAnswer(this, false)">Uma coruja</button>
+                <button class="option" onclick="checkAnswer(this, false)">Um lobo</button>
+            </div>
+        </div>
+
+        <div class="question-container" id="question4">
+            <h2>4. Quem foi o primeiro professor de Defesa Contra as Artes das Trevas de Harry?</h2>
+            <div class="options">
+                <button class="option" onclick="checkAnswer(this, true)">Quirinus Quirrell</button>
+                <button class="option" onclick="checkAnswer(this, false)">Remo Lupin</button>
+                <button class="option" onclick="checkAnswer(this, false)">Severo Snape</button>
+            </div>
+        </div>
+
+        <div class="question-container" id="question5">
+            <h2>5. Qual o nome do elfo doméstico que ajudou Harry?</h2>
+            <div class="options">
+                <button class="option" onclick="checkAnswer(this, false)">Kreacher</button>
+                <button class="option" onclick="checkAnswer(this, true)">Dobby</button>
+                <button class="option" onclick="checkAnswer(this, false)">Winky</button>
+            </div>
+        </div>
+
+        <div class="question-container" id="question6">
+            <h2>6. Quem matou Alvo Dumbledore?</h2>
+            <div class="options">
+                <button class="option" onclick="checkAnswer(this, true)">Severo Snape</button>
+                <button class="option" onclick="checkAnswer(this, false)">Bellatrix Lestrange</button>
+                <button class="option" onclick="checkAnswer(this, false)">Lúcio Malfoy</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
